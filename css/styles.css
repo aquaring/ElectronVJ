@@ -1,0 +1,29 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    margin:0;padding:0;
+    height:100%;
+}
+ul, li {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#bar li {
+    list-style: none;
+    display: inline-block;
+}
+#bar li div {
+    width: 10px;
+    height: 10px;
+    font-size: 8pt;
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    background: #FFFFFF;
+    color: #FFFFFF;
+}
